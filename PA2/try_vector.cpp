@@ -4,6 +4,8 @@
 #include <sys/types.h>
 #include <unistd.h> 
 #include <string.h>
+#include <sys/stat.h>
+#include <fcntl.h>
 using namespace std;
 #include "trim.h"
 
@@ -25,8 +27,40 @@ int execFlag(string input_line) {
     return 0;
 }
 
-char** vec_to_char_array(vector<string>& input_vector) { 
-	char** result = new char* [input_vector.size()+1];
+char** vec_to_char_array(vector<string>& input_vector) {    
+    int pos = -1;
+    for (int i=0; i< input_vector.size(); i++) {
+        if (input_vector[i]==">") {
+            pos = i;
+        }
+    }
+    if (pos > 0) {
+        string filename = input_vector[pos+1];
+        input_vector.erase (input_vector.begin() + pos + 1);
+        input_vector.erase (input_vector.begin() + pos);
+        int fd = open(filename.c_str(), O_WRONLY | O_CREAT, S_IWUSR | S_IRUSR);
+        dup2(fd, 1);
+        close(fd);
+    }
+
+    pos = -1;
+    for (int i=0; i< input_vector.size(); i++) {
+        if (input_vector[i]=="<") {
+            pos = i;
+        }
+    }
+    if (pos > 0) {
+        string filename = input_vector[pos+1];
+        input_vector.erase (input_vector.begin() + pos + 1);
+        input_vector.erase (input_vector.begin() + pos);
+        int fd = open(filename.c_str(), O_RDONLY | O_CREAT, S_IWUSR | S_IRUSR);
+        dup2(fd, 0);
+        close(fd);
+    }
+
+    
+    
+    char** result = new char* [input_vector.size()+1];
     for (int i=0; i<input_vector.size(); i++) {
         result[i] = (char*) input_vector[i].c_str();
     }
@@ -54,23 +88,20 @@ int main() {
             cout << "ending .... bye" << endl;
             break;
         }
+
         int pid = fork();
         if (pid == 0) {
-            // char* args[] = {(char*) input_line.c_str(), NULL};
-            // cout << *args << endl;
             char* exec_string[MAXLIST];
             int exec_flag = execFlag(input_line.c_str());
+            
             if (exec_flag==1) {
-                //create exec_string
-                vector<string> input_vector = trim(input_line);
+                vector<string> input_vector = trim_line(input_line);
                 char** exec_string = vec_to_char_array(input_vector);
                 run_one_line(exec_string);
             }
             else {
-                //create exec_pipe
-                cout << "work in progress" << endl;
+                vector<vector<string>> input_vector_vector = trim_pipe(input_line);
             }
-            //execvp(args[0],args);
         }
         else {
             waitpid(pid,0,0);

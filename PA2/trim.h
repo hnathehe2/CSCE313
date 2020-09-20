@@ -7,7 +7,7 @@
 #include <vector>
 using namespace std;
 
-vector<string> trim(string alpha) {
+vector<string> trim_line(string alpha) {
     bool in_quote = false;
     bool space_between = true;
     string beta;
@@ -58,7 +58,8 @@ vector<string> trim(string alpha) {
             continue;
         }
         else if (i==' ') {
-            charlie.push_back(temp);
+            if (temp.length()>0)
+                charlie.push_back(temp);
             temp = "";
         }
     }
@@ -69,5 +70,22 @@ vector<string> trim(string alpha) {
     //     cout << "\"" << i << "\"" << endl;
     // cout << "-------------------" << endl;
 
+    return charlie;
+}
+
+vector<vector<string>> trim_pipe(string alpha) {
+    vector<vector<string>> charlie;
+    int pre_pos = 0;
+    int pos = alpha.find("|", 0);
+    alpha += "   |";
+    while (pos < alpha.length()) {
+        vector<string> temp = trim_line(alpha.substr(pre_pos, pos-pre_pos));
+        for (string ii:temp)
+            cout << ii << " ";
+        cout << "\"" << endl;
+        charlie.push_back(temp);
+        pre_pos = pos + 1;
+        pos = alpha.find("|", pre_pos);
+    }
     return charlie;
 }
