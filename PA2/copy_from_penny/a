@@ -1,0 +1,268 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1 225728  9448 ?        Ss   Sep19   1:12 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    Sep19   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   Sep19   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   Sep19   0:00 [rcu_par_gp]
+root         9  0.0  0.0      0     0 ?        I<   Sep19   0:00 [mm_percpu_wq]
+root        10  0.0  0.0      0     0 ?        S    Sep19   0:01 [ksoftirqd/0]
+root        11  0.0  0.0      0     0 ?        I    Sep19   1:05 [rcu_sched]
+root        12  0.0  0.0      0     0 ?        S    Sep19   0:00 [migration/0]
+root        13  0.0  0.0      0     0 ?        S    Sep19   0:00 [idle_inject/0]
+root        14  0.0  0.0      0     0 ?        S    Sep19   0:00 [cpuhp/0]
+root        15  0.0  0.0      0     0 ?        S    Sep19   0:00 [cpuhp/1]
+root        16  0.0  0.0      0     0 ?        S    Sep19   0:00 [idle_inject/1]
+root        17  0.0  0.0      0     0 ?        S    Sep19   0:00 [migration/1]
+root        18  0.0  0.0      0     0 ?        S    Sep19   0:01 [ksoftirqd/1]
+root        20  0.0  0.0      0     0 ?        I<   Sep19   0:00 [kworker/1:0H-kb]
+root        21  0.0  0.0      0     0 ?        S    Sep19   0:00 [cpuhp/2]
+root        22  0.0  0.0      0     0 ?        S    Sep19   0:00 [idle_inject/2]
+root        23  0.0  0.0      0     0 ?        S    Sep19   0:00 [migration/2]
+root        24  0.0  0.0      0     0 ?        S    Sep19   0:00 [ksoftirqd/2]
+root        26  0.0  0.0      0     0 ?        I<   Sep19   0:00 [kworker/2:0H-kb]
+root        27  0.0  0.0      0     0 ?        S    Sep19   0:00 [cpuhp/3]
+root        28  0.0  0.0      0     0 ?        S    Sep19   0:00 [idle_inject/3]
+root        29  0.0  0.0      0     0 ?        S    Sep19   0:00 [migration/3]
+root        30  0.0  0.0      0     0 ?        S    Sep19   0:01 [ksoftirqd/3]
+root        32  0.0  0.0      0     0 ?        I<   Sep19   0:00 [kworker/3:0H-kb]
+root        33  0.0  0.0      0     0 ?        S    Sep19   0:00 [kdevtmpfs]
+root        34  0.0  0.0      0     0 ?        I<   Sep19   0:00 [netns]
+root        35  0.0  0.0      0     0 ?        S    Sep19   0:00 [rcu_tasks_kthre]
+root        36  0.0  0.0      0     0 ?        S    Sep19   0:00 [kauditd]
+root        39  0.0  0.0      0     0 ?        S    Sep19   0:00 [khungtaskd]
+root        40  0.0  0.0      0     0 ?        S    Sep19   0:00 [oom_reaper]
+root        41  0.0  0.0      0     0 ?        I<   Sep19   0:00 [writeback]
+root        42  0.0  0.0      0     0 ?        S    Sep19   0:00 [kcompactd0]
+root        43  0.0  0.0      0     0 ?        SN   Sep19   0:00 [ksmd]
+root        44  0.0  0.0      0     0 ?        SN   Sep19   0:00 [khugepaged]
+root        91  0.0  0.0      0     0 ?        I<   Sep19   0:00 [kintegrityd]
+root        92  0.0  0.0      0     0 ?        I<   Sep19   0:00 [kblockd]
+root        93  0.0  0.0      0     0 ?        I<   Sep19   0:00 [blkcg_punt_bio]
+root        95  0.0  0.0      0     0 ?        I<   Sep19   0:00 [tpm_dev_wq]
+root        96  0.0  0.0      0     0 ?        I<   Sep19   0:00 [ata_sff]
+root        97  0.0  0.0      0     0 ?        I<   Sep19   0:00 [md]
+root        98  0.0  0.0      0     0 ?        I<   Sep19   0:00 [edac-poller]
+root        99  0.0  0.0      0     0 ?        I<   Sep19   0:00 [devfreq_wq]
+root       101  0.0  0.0      0     0 ?        S    Sep19   0:00 [watchdogd]
+root       103  0.0  0.0      0     0 ?        S    Sep19   0:01 [kswapd0]
+root       104  0.0  0.0      0     0 ?        S    Sep19   0:00 [ecryptfs-kthrea]
+root       106  0.0  0.0      0     0 ?        I<   Sep19   0:00 [kthrotld]
+root       107  0.0  0.0      0     0 ?        S    Sep19   0:00 [irq/122-aerdrv]
+root       108  0.0  0.0      0     0 ?        S    Sep19   0:00 [irq/123-aerdrv]
+root       109  0.0  0.0      0     0 ?        I<   Sep19   0:00 [acpi_thermal_pm]
+root       111  0.0  0.0      0     0 ?        I<   Sep19   0:00 [vfio-irqfd-clea]
+root       112  0.0  0.0      0     0 ?        I<   Sep19   0:00 [ipv6_addrconf]
+root       121  0.0  0.0      0     0 ?        I<   Sep19   0:00 [kstrp]
+root       124  0.0  0.0      0     0 ?        I<   Sep19   0:00 [kworker/u9:0-hc]
+root       137  0.0  0.0      0     0 ?        I<   Sep19   0:00 [charger_manager]
+root       190  0.0  0.0      0     0 ?        S    Sep19   0:00 [scsi_eh_0]
+root       191  0.0  0.0      0     0 ?        I<   Sep19   0:00 [scsi_tmf_0]
+root       192  0.0  0.0      0     0 ?        S    Sep19   0:00 [scsi_eh_1]
+root       193  0.0  0.0      0     0 ?        I<   Sep19   0:00 [scsi_tmf_1]
+root       195  0.0  0.0      0     0 ?        I<   Sep19   0:04 [kworker/3:1H-ev]
+root       226  0.0  0.0      0     0 ?        I<   Sep19   0:04 [kworker/2:1H-ev]
+root       229  0.0  0.0      0     0 ?        S    Sep19   0:05 [jbd2/sda6-8]
+root       230  0.0  0.0      0     0 ?        I<   Sep19   0:00 [ext4-rsv-conver]
+root       232  0.0  0.0      0     0 ?        I<   Sep19   0:04 [kworker/0:1H-ev]
+root       271  0.0  0.3 128060 26132 ?        S<s  Sep19   0:02 /lib/systemd/systemd-journald
+root       300  0.0  0.0  47416  5388 ?        Ss   Sep19   0:01 /lib/systemd/systemd-udevd
+root       302  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop0]
+root       310  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop1]
+root       325  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop2]
+root       328  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop3]
+root       335  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop4]
+root       337  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop5]
+root       355  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop6]
+root       358  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop7]
+root       359  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop8]
+root       360  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop9]
+root       362  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop10]
+root       364  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop11]
+root       373  0.0  0.0      0     0 ?        S    Sep19   0:35 [irq/51-DELL07DE]
+root       375  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop12]
+root       376  0.0  0.0      0     0 ?        I<   Sep19   0:00 [kmemstick]
+root       378  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop13]
+root       385  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop14]
+root       393  0.0  0.0      0     0 ?        I<   Sep19   0:00 [cfg80211]
+root       395  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop15]
+root       399  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop16]
+root       403  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop17]
+root       408  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop18]
+root       425  0.0  0.0      0     0 ?        I<   Sep19   0:00 [cryptd]
+root       451  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop19]
+root       454  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop20]
+root       467  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop21]
+root       520  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop22]
+root       553  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop23]
+root       559  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop24]
+root       560  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop25]
+root       569  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop26]
+root       591  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop27]
+root       595  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop28]
+root       619  0.0  0.0      0     0 ?        S<   Sep19   0:00 [loop29]
+systemd+   679  0.0  0.0  71068  6620 ?        Ss   Sep19   0:05 /lib/systemd/systemd-resolved
+systemd+   682  0.0  0.0 146132  3296 ?        Ssl  Sep19   0:00 /lib/systemd/systemd-timesyncd
+root       856  0.0  0.1 434372  9828 ?        Ssl  Sep19   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root       861  0.0  0.1 181432  9476 ?        Ssl  Sep19   0:04 /usr/sbin/thermald --no-daemon --dbus-enable
+avahi      862  0.0  0.0  47348  3692 ?        Rs   Sep19   0:02 avahi-daemon: running [hoangnghiaanh04-Inspiron-5566.local]
+root       864  0.0  0.0   4548   720 ?        Ss   Sep19   0:10 /usr/sbin/acpid
+root       866  0.0  0.0  32860  3148 ?        Ss   Sep19   0:00 /usr/sbin/cron -f
+message+   869  0.0  0.0  51736  6268 ?        Ss   Sep19   0:25 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+avahi      877  0.0  0.0  47072   340 ?        S    Sep19   0:00 avahi-daemon: chroot helper
+root       884  0.0  0.1  45716  8568 ?        Ss   Sep19   0:07 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root       887  0.0  0.2 1030160 18460 ?       Ssl  Sep19   0:35 /usr/sbin/NetworkManager --no-daemon
+root       888  0.0  0.1 504100 12320 ?        Ssl  Sep19   0:07 /usr/lib/udisks2/udisksd
+root       891  0.0  0.2 172072 17096 ?        Ssl  Sep19   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root       893  0.0  0.0 289172  6880 ?        Ssl  Sep19   0:01 /usr/lib/accountsservice/accounts-daemon
+root       895  0.0  0.0  70744  6264 ?        Ss   Sep19   0:02 /lib/systemd/systemd-logind
+root       910  0.0  0.0 110480  3452 ?        Ssl  Sep19   0:03 /usr/sbin/irqbalance --foreground
+syslog     913  0.0  0.0 263032  4664 ?        Ssl  Sep19   0:00 /usr/sbin/rsyslogd -n
+root       914  0.0  0.3 1532220 28008 ?       Ssl  Sep19   0:07 /usr/lib/snapd/snapd
+root       922  0.0  0.1 297956  9848 ?        Ssl  Sep19   0:01 /usr/lib/policykit-1/polkitd --no-debug
+colord     942  0.0  0.1 393180 14204 ?        Ssl  Sep19   0:00 /usr/lib/colord/colord
+root       967  0.0  0.1 302620  8244 ?        Ssl  Sep19   0:00 /usr/sbin/gdm3
+root       976  0.0  0.2 188788 19820 ?        Ssl  Sep19   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       989  0.0  0.1 413896  9076 ?        Sl   Sep19   0:00 gdm-session-worker [pam/gdm-autologin]
+hoangng+   995  0.0  0.1  77280  8444 ?        Ss   Sep19   0:00 /lib/systemd/systemd --user
+hoangng+   996  0.0  0.0 114336  2840 ?        S    Sep19   0:00 (sd-pam)
+hoangng+  1013  0.0  0.0 282948  7688 ?        SLl  Sep19   0:04 /usr/bin/gnome-keyring-daemon --daemonize --login
+hoangng+  1017  0.0  0.0 206568  5832 tty1     Ssl+ Sep19   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+hoangng+  1019  1.2  0.8 975008 71664 tty1     Sl+  Sep19  31:16 /usr/lib/xorg/Xorg vt1 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+hoangng+  1044  0.0  0.0  52972  6884 ?        Ss   Sep19   0:09 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+hoangng+  1047  0.0  0.1 709760 14468 tty1     Sl+  Sep19   0:02 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+hoangng+  1151  0.0  0.0  11304   316 ?        Ss   Sep19   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+hoangng+  1177  0.0  0.0 349304  6152 ?        Ssl  Sep19   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+hoangng+  1182  0.0  0.0  50056  4096 ?        S    Sep19   0:03 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+hoangng+  1184  0.0  0.0 220788  6824 ?        Sl   Sep19   0:14 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+hoangng+  1206  1.4  4.5 4036688 369128 tty1   Sl+  Sep19  35:35 /usr/bin/gnome-shell
+root      1212  0.0  0.1 316868  8740 ?        Ssl  Sep19   0:04 /usr/lib/upower/upowerd
+hoangng+  1230  0.0  0.0 286408  7276 ?        Ssl  Sep19   0:00 /usr/lib/gvfs/gvfsd
+hoangng+  1235  0.0  0.0 416112  5376 ?        Sl   Sep19   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+hoangng+  1245  0.9  0.2 2122488 17920 ?       Sl   Sep19  23:59 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     1246  0.0  0.0 183504  3020 ?        SNsl Sep19   0:00 /usr/lib/rtkit/rtkit-daemon
+root      1251  0.0  0.0  36504  4588 ?        Ss   Sep19   0:00 /usr/lib/bluetooth/bluetoothd
+hoangng+  1333  0.0  0.1 430272  9220 tty1     Sl   Sep19   0:28 ibus-daemon --xim --panel disable
+hoangng+  1337  0.0  0.0 275196  6700 tty1     Sl   Sep19   0:00 /usr/lib/ibus/ibus-dconf
+hoangng+  1339  0.0  0.2 338380 20668 tty1     Sl   Sep19   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+hoangng+  1341  0.0  0.0 273388  7412 ?        Sl   Sep19   0:01 /usr/lib/ibus/ibus-portal
+hoangng+  1353  0.0  0.2 689912 20580 ?        Sl   Sep19   0:00 /usr/lib/gnome-shell/gnome-shell-calendar-server
+hoangng+  1357  0.0  0.3 1366616 26020 ?       Ssl  Sep19   0:00 /usr/lib/evolution/evolution-source-registry
+hoangng+  1365  0.0  0.4 778232 32724 ?        Sl   Sep19   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+root      1372  0.0  0.0 291308  6628 ?        Ssl  Sep19   0:00 /usr/lib/x86_64-linux-gnu/boltd
+hoangng+  1376  0.0  0.1 300992  8992 ?        Ssl  Sep19   0:03 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+hoangng+  1385  0.0  0.0 297796  7668 ?        Sl   Sep19   0:03 /usr/lib/gnome-online-accounts/goa-identity-service
+hoangng+  1390  0.0  0.0 283228  6616 ?        Ssl  Sep19   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+hoangng+  1394  0.0  0.0 373256  7464 ?        Ssl  Sep19   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+hoangng+  1399  0.0  0.0 268480  5936 ?        Ssl  Sep19   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+hoangng+  1403  0.0  0.0 270304  4848 ?        Ssl  Sep19   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+root      1407  0.0  0.5 517168 47848 ?        Ssl  Sep19   0:10 /usr/lib/packagekit/packagekitd
+hoangng+  1409  0.0  0.3 866476 25616 tty1     Sl+  Sep19   0:02 /usr/lib/gnome-settings-daemon/gsd-power
+hoangng+  1413  0.0  0.1 343788 10272 tty1     Sl+  Sep19   0:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+hoangng+  1418  0.0  0.0 417780  5756 tty1     Sl+  Sep19   0:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+hoangng+  1419  0.0  0.0 270168  4732 tty1     Sl+  Sep19   0:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+hoangng+  1424  0.0  0.1 447680 10344 tty1     Sl+  Sep19   0:14 /usr/lib/gnome-settings-daemon/gsd-sharing
+hoangng+  1430  0.0  0.0 372520  7932 tty1     Sl+  Sep19   0:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+hoangng+  1438  0.0  0.0 327308  7900 tty1     Sl+  Sep19   0:00 /usr/lib/gnome-settings-daemon/gsd-sound
+hoangng+  1441  0.0  0.2 488940 21584 tty1     Sl+  Sep19   0:01 /usr/lib/gnome-settings-daemon/gsd-xsettings
+hoangng+  1445  0.0  0.2 496604 22032 tty1     Sl+  Sep19   0:01 /usr/lib/gnome-settings-daemon/gsd-wacom
+hoangng+  1451  0.0  0.2 338000 20076 tty1     Sl+  Sep19   0:01 /usr/lib/gnome-settings-daemon/gsd-clipboard
+hoangng+  1454  0.0  0.0 272600  5892 tty1     Sl+  Sep19   0:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+hoangng+  1458  0.0  0.0 358904  7124 tty1     Sl+  Sep19   0:03 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+hoangng+  1459  0.0  0.2 662532 23732 tty1     Sl+  Sep19   0:08 /usr/lib/gnome-settings-daemon/gsd-color
+hoangng+  1464  0.0  0.2 469392 21636 tty1     Sl+  Sep19   0:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+hoangng+  1468  0.0  0.0 272612  5956 tty1     Sl+  Sep19   0:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+hoangng+  1469  0.0  0.2 500872 21156 tty1     Sl+  Sep19   0:01 /usr/lib/gnome-settings-daemon/gsd-keyboard
+hoangng+  1472  0.0  0.3 1469144 24396 tty1    Sl+  Sep19   0:02 /usr/lib/gnome-settings-daemon/gsd-media-keys
+hoangng+  1510  0.0  0.0 271932  6664 tty1     Sl+  Sep19   0:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+hoangng+  1523  0.0  0.6 894100 50684 tty1     Sl+  Sep19   0:03 nautilus-desktop
+hoangng+  1534  0.0  0.0 362804  7688 ?        Sl   Sep19   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.22 /org/gtk/gvfs/exec_spaw/0
+hoangng+  1541  0.0  0.1 503204 12396 tty1     Sl+  Sep19   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+hoangng+  1547  0.0  0.8 894824 67388 ?        Ssl  Sep19   0:00 /usr/lib/evolution/evolution-calendar-factory
+hoangng+  1565  0.0  0.1 295336  9576 tty1     Sl   Sep19   0:04 /usr/lib/ibus/ibus-engine-unikey --ibus
+hoangng+  1574  0.0  0.0 188136  5512 ?        Sl   Sep19   0:00 /usr/lib/dconf/dconf-service
+hoangng+  1580  0.0  0.7 1130596 62944 ?       Sl   Sep19   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1547x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1547/2
+hoangng+  1590  0.0  0.3 727140 24184 ?        Ssl  Sep19   0:00 /usr/lib/evolution/evolution-addressbook-factory
+hoangng+  1601  0.0  0.3 1077184 26452 ?       Sl   Sep19   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1590x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1590/2
+hoangng+  1625  0.0  0.0 199232  6236 ?        Ssl  Sep19   0:00 /usr/lib/gvfs/gvfsd-metadata
+root      1641  0.0  0.0      0     0 ?        S<   Sep19   0:00 [krfcommd]
+whoopsie  1644  0.0  0.1 464308 12784 ?        Ssl  Sep19   0:00 /usr/bin/whoopsie -f
+kernoops  1647  0.0  0.0  56940   424 ?        Ss   Sep19   0:05 /usr/sbin/kerneloops --test
+kernoops  1649  0.0  0.0  56940   424 ?        Ss   Sep19   0:05 /usr/sbin/kerneloops
+hoangng+  1657  1.0  6.1 1895696 493420 tty1   SLl+ Sep19  26:40 /opt/google/chrome/chrome
+hoangng+  1663  0.0  0.0   9148   812 tty1     S+   Sep19   0:00 cat
+hoangng+  1664  0.0  0.0   9148   824 tty1     S+   Sep19   0:00 cat
+hoangng+  1667  0.0  0.7 461180 62040 tty1     S+   Sep19   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox
+hoangng+  1668  0.0  0.7 461180 62304 tty1     S+   Sep19   0:00 /opt/google/chrome/chrome --type=zygote
+hoangng+  1669  0.0  0.0  27240  4040 tty1     S+   Sep19   0:00 /opt/google/chrome/nacl_helper
+hoangng+  1672  0.0  0.2 461180 16292 tty1     S+   Sep19   0:01 /opt/google/chrome/chrome --type=zygote
+hoangng+  1673  0.0  0.0  27240  3008 tty1     S+   Sep19   0:00 /opt/google/chrome/nacl_helper
+hoangng+  1694  2.3  2.3 814740 189308 tty1    Sl+  Sep19  58:40 /opt/google/chrome/chrome --type=gpu-process --field-trial-handle=5410726115426685180,16743662714786372313,131072 --gpu-preferences=MAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA= --shared-files
+hoangng+  1697  0.3  1.4 645340 120268 tty1    SLl+ Sep19   9:46 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --service-sandbox-type=network --shared-files
+hoangng+  1753  0.0  2.7 4910572 221456 tty1   Sl+  Sep19   2:23 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+  2009  0.0  1.3 4809020 111488 tty1   Sl+  Sep19   0:02 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=12 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+  2219  0.0  4.8 5272624 387344 tty1   Sl+  Sep19   1:49 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=14 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+  2244  0.2  2.1 4909416 174608 tty1   Sl+  Sep19   7:12 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=20 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+  2283  0.0  1.7 4836596 137032 tty1   Sl+  Sep19   0:30 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=13 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+  2323  0.0  0.3 591396 27412 tty1     Sl+  Sep19   0:02 update-notifier
+hoangng+  2326  0.0  2.3 1341336 188740 tty1   SLl+ Sep19   0:08 /usr/bin/gnome-software --gapplication-service
+hoangng+  2393  0.0  0.0 298136  7128 ?        Ssl  Sep19   0:00 /usr/lib/glib-networking//glib-pacrunner
+hoangng+  2429  0.0  0.4 791580 33396 tty1     Sl+  Sep19   0:00 /usr/lib/deja-dup/deja-dup-monitor
+hoangng+  2498  0.4  0.7 787376 60268 tty1     Sl+  Sep19   9:52 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --service-sandbox-type=audio --shared-files
+hoangng+  4020  0.0  0.0 199324  6612 tty1     Sl   Sep19   0:02 /usr/lib/ibus/ibus-engine-simple
+hoangng+  6682  0.0  1.8 4848548 145432 tty1   Sl+  Sep19   0:44 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=212 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+  8740  0.4  5.8 5277956 467968 tty1   Sl+  Sep19   6:06 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=298 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+ 11222  0.0  0.0 438568  7568 ?        Sl   Sep19   0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.22 /org/gtk/gvfs/exec_spaw/1
+hoangng+ 11237  0.0  0.0 375728  7536 ?        Sl   Sep19   0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.22 /org/gtk/gvfs/exec_spaw/3
+root     14152  0.0  0.1 103368  9568 ?        Ss   00:06   0:00 /usr/sbin/cupsd -l
+root     14153  0.0  0.1 303672 11000 ?        Ssl  00:06   0:00 /usr/sbin/cups-browsed
+root     15183  0.0  0.0      0     0 ?        I<   00:29   0:01 [kworker/1:2H-ev]
+root     15244  0.0  0.0      0     0 ?        I<   00:29   0:00 [kworker/0:2H-kb]
+hoangng+ 17034  1.2  4.5 5155884 370168 tty1   Sl+  00:52  13:56 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=618 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+ 20400  0.6  2.3 4969576 192284 tty1   Sl+  02:10   6:04 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=757 --no-v8-untrusted-code-mitigations --shared-files
+root     24941  0.0  0.0      0     0 ?        I<   14:33   0:00 [kworker/u9:2-hc]
+hoangng+ 25227  1.7  1.8 4951280 152280 ?      Ssl  14:34   4:20 /snap/code/44/usr/share/code/code --force-user-env --no-sandbox --unity-launch --no-sandbox
+hoangng+ 25229  0.0  0.5 359048 44120 ?        S    14:34   0:00 /snap/code/44/usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox
+hoangng+ 25230  0.0  0.5 359048 44344 ?        S    14:34   0:00 /snap/code/44/usr/share/code/code --type=zygote --no-sandbox
+hoangng+ 25266  0.0  0.7 436632 62392 ?        Sl   14:34   0:00 /snap/code/44/usr/share/code/code --type=utility --field-trial-handle=16303748345912191483,8281263903852336743,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=network --no-sandbox --enable-crash-reporter=ef3e3e3c-e245-4dec-825d-e18b11bf510c,no_channel --global-crash-keys=ef3e3e3c-e245-4dec-825d-e18b11bf510c,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.49.1 --standard-schemes=vscode-webview,vscode-webview-resource --secure-schemes=vscode-webview,vscode-webview-resource --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource --fetch-schemes=vscode-webview,vscode-webview-resource --service-worker-schemes --shared-files=v8_snapshot_data:100
+hoangng+ 25267  1.3  0.7 445632 64176 ?        Sl   14:34   3:20 /snap/code/44/usr/share/code/code --type=gpu-process --field-trial-handle=16303748345912191483,8281263903852336743,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=ef3e3e3c-e245-4dec-825d-e18b11bf510c,no_channel --global-crash-keys=ef3e3e3c-e245-4dec-825d-e18b11bf510c,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.49.1 --gpu-preferences=MAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA= --use-gl=swiftshader-webgl --shared-files
+hoangng+ 25287  9.0  4.6 19733056 372508 ?     SLl  14:34  23:02 /snap/code/44/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=16303748345912191483,8281263903852336743,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=ef3e3e3c-e245-4dec-825d-e18b11bf510c,no_channel --global-crash-keys=ef3e3e3c-e245-4dec-825d-e18b11bf510c,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.49.1 --standard-schemes=vscode-webview,vscode-webview-resource --secure-schemes=vscode-webview,vscode-webview-resource --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource --fetch-schemes=vscode-webview,vscode-webview-resource --service-worker-schemes --app-path=/snap/code/44/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/snap/code/44/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100
+hoangng+ 25321  0.0  0.0  24388  5472 pts/0    Ss   14:34   0:00 /bin/bash
+hoangng+ 25330  0.6  2.6 4740396 213016 ?      Sl   14:34   1:33 /snap/code/44/usr/share/code/code --inspect-port=0 /snap/code/44/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+hoangng+ 25345  0.0  0.9 4642288 74560 ?       Rl   14:34   0:01 /snap/code/44/usr/share/code/code /snap/code/44/usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+hoangng+ 25373  0.3  0.8 1386152 70032 ?       Sl   14:34   0:50 /home/hoangnghiaanh04/.vscode/extensions/ms-vscode.cpptools-1.0.1-insiders/bin/cpptools
+hoangng+ 25439  0.0  0.8 4606436 68324 ?       Sl   14:34   0:00 /snap/code/44/usr/share/code/code /snap/code/44/usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=25330
+hoangng+ 25447  0.0  1.4 4765540 120388 ?      Sl   14:34   0:13 /snap/code/44/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=16303748345912191483,8281263903852336743,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=ef3e3e3c-e245-4dec-825d-e18b11bf510c,no_channel --global-crash-keys=ef3e3e3c-e245-4dec-825d-e18b11bf510c,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.49.1 --standard-schemes=vscode-webview,vscode-webview-resource --secure-schemes=vscode-webview,vscode-webview-resource --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource --fetch-schemes=vscode-webview,vscode-webview-resource --service-worker-schemes --app-path=/snap/code/44/usr/share/code/resources/app --node-integration --no-sandbox --no-zygote --native-window-open --preload=/snap/code/44/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#1e1e1e --disable-blink-features=Auxclick --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100
+hoangng+ 26933  0.0  1.6 4829736 132560 tty1   Sl+  15:32   0:06 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=928 --no-v8-untrusted-code-mitigations --shared-files
+root     27676  0.0  0.0      0     0 ?        S    16:25   0:00 [irq/127-mei_me]
+root     27774  0.0  0.0      0     0 ?        S    16:25   0:00 [ath9k-hwrng]
+root     27780  0.0  0.0  25980  6040 ?        S    16:25   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-wlp1s0.pid -lf /var/lib/NetworkManager/dhclient-1d3f9233-212c-463c-8b05-3550b3258203-wlp1s0.lease -cf /var/lib/NetworkManager/dhclient-wlp1s0.conf wlp1s0
+hoangng+ 28987  0.0  1.3 4800888 106716 tty1   Sl+  16:41   0:01 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=956 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+ 29246  0.1  1.7 4828560 139736 tty1   Sl+  16:48   0:09 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=965 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+ 29267  0.0  0.4 795316 36584 ?        Ssl  16:49   0:00 /usr/lib/gnome-terminal/gnome-terminal-server
+hoangng+ 29277  0.0  0.0  24252  5036 pts/1    Ss+  16:49   0:00 bash
+root     29419  0.0  0.0      0     0 ?        I    16:56   0:00 [kworker/3:1-eve]
+hoangng+ 29960  0.9  3.2 4964060 257996 tty1   Sl+  17:22   0:51 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=980 --no-v8-untrusted-code-mitigations --shared-files
+root     30117  0.1  0.0      0     0 ?        I    17:23   0:05 [kworker/1:3-eve]
+hoangng+ 30128  0.0  1.3 4802344 109620 tty1   Sl+  17:23   0:01 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=994 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+ 30605  0.1  1.6 4824076 133424 tty1   Sl+  17:38   0:05 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=1002 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+ 30619  0.0  0.8 4765380 70280 tty1    Sl+  17:38   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=1003 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+ 30635  0.0  1.1 4779524 92976 tty1    Sl+  17:38   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=1004 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+ 30641  0.0  0.8 4765380 70248 tty1    Sl+  17:38   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=1005 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+ 30651  0.0  0.8 4765380 70360 tty1    Sl+  17:38   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=1006 --no-v8-untrusted-code-mitigations --shared-files
+root     30869  0.0  0.0      0     0 ?        I    17:46   0:00 [kworker/1:1-eve]
+root     30883  0.0  0.0      0     0 ?        I    17:46   0:00 [kworker/2:1-eve]
+hoangng+ 30889  0.2  1.7 4836072 139612 tty1   Sl+  17:46   0:07 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=1016 --no-v8-untrusted-code-mitigations --shared-files
+hoangng+ 30903  0.0  0.6 4750016 56048 tty1    Sl+  17:46   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=5410726115426685180,16743662714786372313,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=1017 --no-v8-untrusted-code-mitigations --shared-files
+root     31070  0.0  0.0      0     0 ?        I    17:53   0:03 [kworker/u8:0-ev]
+root     31694  0.0  0.0      0     0 ?        I    18:16   0:00 [kworker/3:0-mm_]
+root     31920  0.1  0.0      0     0 ?        I    18:24   0:01 [kworker/u8:3-ph]
+root     32076  0.0  0.0      0     0 ?        I    18:31   0:00 [kworker/2:2-mm_]
+hoangng+ 32104  0.8  2.0 4606832 165000 ?      Sl   18:32   0:09 /home/hoangnghiaanh04/.vscode/extensions/ms-vscode.cpptools-1.0.1-insiders/bin/cpptools-srv 25373 30
+root     32126  0.0  0.0      0     0 ?        I    18:33   0:00 [kworker/0:1-rcu]
+root     32207  0.0  0.0      0     0 ?        I    18:36   0:00 [kworker/u8:2-ev]
+root     32268  0.0  0.0      0     0 ?        I    18:38   0:00 [kworker/0:0-rcu]
+root     32354  0.1  0.0      0     0 ?        I    18:41   0:00 [kworker/u8:1-ph]
+root     32479  0.1  0.0      0     0 ?        I    18:46   0:00 [kworker/1:0-mm_]
+root     32556  0.0  0.0      0     0 ?        I    18:48   0:00 [kworker/0:2-mm_]
+hoangng+ 32566  0.4  0.6 4599144 55048 ?       Sl   18:49   0:00 /home/hoangnghiaanh04/.vscode/extensions/ms-vscode.cpptools-1.0.1-insiders/bin/cpptools-srv 25373 35
+hoangng+ 32585  0.0  0.0  14024  1944 pts/0    S+   18:49   0:00 ./new_split
+hoangng+ 32588  0.0  0.0  41208  3756 pts/0    R+   18:49   0:00 ps aux

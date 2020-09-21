@@ -39,14 +39,24 @@ vector<string> trim_line(string alpha) {
     string temp="";
     in_quote = false;
     beta+=" ";
+    bool special = false;
     // cout << beta << endl;
     for (char i:beta) {
+        if (special) {
+            special=false;
+            temp+=i;
+        }
         if (in_quote && i!='\"') {
             temp += i;
             continue;
         }
         else if (in_quote && i=='\"') {
             in_quote = false;
+            continue;
+        }
+        else if (in_quote && i=='\\') {
+            special = true;
+            temp += i;
             continue;
         }
         else if (i!=' ' && i!='\"') {
@@ -76,8 +86,8 @@ vector<string> trim_line(string alpha) {
 vector<vector<string>> trim_pipe(string alpha) {
     vector<vector<string>> charlie;
     int pre_pos = 0;
-    int pos = alpha.find("|", 0);
     alpha += "   |";
+    int pos = alpha.find("|", 0);
     while (pos < alpha.length()) {
         vector<string> temp = trim_line(alpha.substr(pre_pos, pos-pre_pos));
         charlie.push_back(temp);
@@ -85,4 +95,12 @@ vector<vector<string>> trim_pipe(string alpha) {
         pos = alpha.find("|", pre_pos);
     }
     return charlie;
+}
+
+int search_vector(vector<string>& a, string b) {
+    for (int i=0; i<a.size(); i++)
+        if (a[i] == b) {
+            return i;
+        }
+    return -1;
 }

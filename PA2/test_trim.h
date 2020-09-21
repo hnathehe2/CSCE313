@@ -5,6 +5,7 @@
 #include <unistd.h> 
 #include <string.h>
 #include <vector>
+#include <string.h>
 using namespace std;
 
 vector<string> trim_line(string alpha) {

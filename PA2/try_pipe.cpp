@@ -80,32 +80,61 @@ void run_one_line(vector<string>& input_vector) {
 }
 
 void run_pipe(vector<vector<string>>& input_vector_vector) {
+    int num_pipe = input_vector_vector.size();
+    int pipefd[num_pipe*2];
+
+    cout << "begin pipe" << endl;    
+    
+    for(int i = 0; i < num_pipe; i++ ) {
+        pipe(pipefd + i*2);
+    }
+
     for (int i=0; i<input_vector_vector.size(); i++) {
-        int fds[2];
-        pipe(fds);
-        
         int pid = fork();
         if (pid!=0) {
-            if (i < input_vector_vector.size()-1) {
-                dup2(fds[1],1);
-            }
+            // if (i < input_vector_vector.size()-1) {
+            //     close(pipefd[0]);
+            //     dup2(pipefd[i+1],1);
+            //     close(pipefd[1]);
+            // }
+            // else {
+            //     close(pipefd[i]); 
+			//     dup2(pipefd[0], 0); 
+			//     close(pipefd[0]); 
+            // }
 
+            // run_one_line(input_vector_vector[i]);
+            // return;
+            if (i!=0) {
+                dup2(pipefd[(i-1) * 2], 0);
+            }
+            if (i != input_vector_vector.size()-1) {
+                dup2(pipefd[i*2+1], 1);
+            }
+            //cout << i << endl;
+            close(pipefd[(i-1) * 2]);
+            close(pipefd[i * 2 + 1]);
             run_one_line(input_vector_vector[i]);
-            return;
         }
         else {
             waitpid(pid,0,0);
-            dup2(fds[0],0);
-            close(fds[1]);
+            //cout << i << " waiting " << endl;
         }
     }
-
+    //cout << "end_of_pipe" << endl;
+    for (int i=0; i<2*num_pipe; i++) {
+        close(pipefd[i]);
+    }
+    while(waitpid(0,0,0) <= 0);
+    //cout << "end_of_pipe" << endl;
     return;
 }
 
 int main() {
     dup2(0,3); //dup input
     dup2(1,4); //dup output
+
+    vector<int> bgs;
 
     while (true) {
         cout <<  "My shell$ ";

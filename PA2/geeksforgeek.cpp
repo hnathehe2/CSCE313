@@ -86,15 +86,17 @@ void execArgsPiped(char** parsed, char** parsedpipe)
 	int pipefd[2]; 
 	pid_t p1, p2; 
 
-	if (pipe(pipefd) < 0) { 
-		printf("\nPipe could not be initialized"); 
-		return; 
-	} 
+	// if (pipe(pipefd) < 0) { 
+	// 	printf("\nPipe could not be initialized"); 
+	// 	return; 
+	// } 
+
 	p1 = fork(); 
-	if (p1 < 0) { 
-		printf("\nCould not fork"); 
-		return; 
-	} 
+	
+	// if (p1 < 0) { 
+	// 	printf("\nCould not fork"); 
+	// 	return; 
+	// } 
 
 	if (p1 == 0) { 
 		// Child 1 executing.. 
