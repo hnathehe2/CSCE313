@@ -33,7 +33,8 @@ MQRequestChannel::~MQRequestChannel(){
 }
 
 int MQRequestChannel::open_ipc(string _pipe_name, int mode) {
-	int fd = (int) mq_open(_pipe_name.c_str(), O_RDWR | O_CREAT, 0600, 0);
+	struct mq_attr attr {0, 1, 256, 0};
+	int fd = (int) mq_open(_pipe_name.c_str(), O_RDWR | O_CREAT, 0600, &attr);
 	if (fd < 0){
 		EXITONERROR(_pipe_name);
 	}
